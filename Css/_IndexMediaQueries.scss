@@ -1,0 +1,231 @@
+
+ @media screen and (min-width: 320px) {
+       
+    .navMid{
+     display: grid;
+     grid-template-columns: repeat(1, auto);
+     grid-template-rows: repeat(4, auto);   
+     
+     justify-content: center;
+     text-align: center;
+                   
+     row-gap: 50px; 
+     align-items: center;
+                    
+            
+ }
+ .nav__items{
+     display: none;
+                    
+ }
+
+  
+            
+ .div__Fila1{
+    background-color: #042D00;
+    width: 320px;
+    height: 200px;
+    border-radius: 50px;
+   }
+            
+   .div__fila__texto{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+          &:hover{
+            color: #fff;
+          }
+}
+            
+.iconify{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 100px;
+    margin-top: 30px;
+    
+     
+ }
+ .div__Buscador{
+    display: flex;
+    flex-direction: initial;              
+    align-items: center;
+    background-color: #745300;
+    height: 5px;
+    border-radius: 40px;
+    padding-bottom: 10px;
+    
+    
+     
+}
+            
+ .barraBuscador{
+    display: flex;
+    height: 20px;
+    width: 200px;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: bold;
+    
+    
+            
+                           
+}
+
+.ImagenesDelInicio{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    justify-content: center;
+    
+    .ImagenIndex{
+        height: 250px;
+        width:100%;
+        
+        margin-top: 100px;
+    
+        border-radius: 40px;
+        
+           &:hover{
+            color: #004603;
+           }
+
+    } 
+    
+     .TextoImagen{
+        font-size: 1.5em;
+        position: absolute;
+        margin-top: 1px;
+        color: black;
+        font-weight: bold;
+            
+    }
+
+    .btn-primary{
+        position: absolute;
+       margin-top: 30px;
+        align-content: center;
+        justify-content: center;
+       
+       
+    }
+}
+}
+            
+ 
+
+
+   @media screen and (min-width: 1200px){
+.navMid{
+    display: grid;
+    grid-template-columns: repeat(4,450px);
+    grid-template-rows: repeat(1, auto);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    row-gap: 50px;
+                                      
+}
+
+ .nav__items{
+display: flex;
+                        
+}
+
+.div__Buscador{
+    display: flex;      
+    align-items: center;
+    background-color: #745300;
+    height: 5px;
+    padding-bottom: 5px; 
+    border-radius: 40px;
+    margin-top: 30px;
+}
+              
+.barraBuscador{
+     display: flex;
+    height: 30px;
+     width: 500px;
+    border: none;
+   background: none;
+  outline: none;
+                  
+  font-size: 1em;
+font-weight: bold;
+}
+                                  
+    
+            
+    .div__Fila1{
+    background-color: #042D00;
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+}
+            
+    .div__fila__texto{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+            
+ .iconify{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    width: 300px;
+    height: 137px;
+    
+    
+}
+
+.ImagenesDelInicio{
+    display: grid;
+    grid-template-columns: repeat(3,600px);
+    justify-content: center;
+    
+    .ImagenIndex{
+        height: 450px;
+        width:500px;
+        box-shadow: 22px 20px 5px;
+        margin-top: 100px;
+    
+        border-radius: 40px;
+        
+           &:hover{
+            color: #004603;
+           }
+
+    } 
+    
+     .TextoImagen{
+        font-size: 2em;
+       position: absolute;
+        top: 1000px;
+        color: #fff;
+        font-weight: bold;
+            
+    }
+
+    .btn-primary{
+        display: grid;
+        justify-content: center;
+        position: absolute;
+    
+        
+       
+    }
+}
+
+
+}
+            
+  
